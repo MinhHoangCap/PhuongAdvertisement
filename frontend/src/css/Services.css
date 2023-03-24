@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
+@import url(./animation.css);
+.services {
+  padding: 50px;
+  position: relative;
+}
+.services-heading {
+  text-align: center;
+  position: relative;
+}
+.services-heading__wrapper {
+  font-family: "Fasthand";
+  font-size: 8rem;
+  color: rgba(0, 0, 0, 0.3);
+  animation: fadein 0.5s;
+}
+.services-heading__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Fasthand";
+  font-size: 6rem;
+  animation: fadein 2s;
+}
+.services__content {
+  text-align: center;
+  line-height: 1.5rem;
+}/*# sourceMappingURL=Services.css.map */
