@@ -5,8 +5,8 @@ export class AboutUsElement extends Component {
     return (
       <div>
         <SwiperSlide>
-        slide 1
-    </SwiperSlide>
+          slide 1
+        </SwiperSlide>
       </div>
     )
   }

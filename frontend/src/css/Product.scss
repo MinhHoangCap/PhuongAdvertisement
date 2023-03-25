@@ -1,6 +1,9 @@
 .product{
     display: flex;
     flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
     &__img{
         padding: 30px;
         img{
@@ -15,31 +18,24 @@
         font-size: 1.7rem;
 
     }
-    &__description{
-        width: 70%;
-        display: -webkit-box;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 0.9rem;
-        line-height: 1.5rem;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        // text-align: center;
-        margin: 0 auto;
-    }
-    &__price{
-        position: relative;
-        // text-align: center;
-        margin: 0 auto;
-        font-size: 1.5rem;
-    }
-    &__currency{
+    &__hover{
+        display: none;
         position: absolute;
+        width: 100%;
+        height: 100%;
         top: 0;
-        // left: 0;
-        right: 150px;
-        font-size: 0.9rem;
-        margin-bottom: 8px;
+        left: 0;
+        background-color: rgba($color: black, $alpha: 0.4);
+    }
+    &:hover .product__hover{
+            display: block;
+            
+        }
+    &__btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
 
 }
