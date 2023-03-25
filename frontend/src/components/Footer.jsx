@@ -9,22 +9,25 @@ export default class Footer extends Component {
       <footer>
         <Container>
             <Row>
-                <Col>Contact Us
-                  <div className="contact-us__content">Contact us through email, phone or social media. We value your feedback and look forward to hearing from you!</div>
+                <Col>
+                  <div className="contact__heading">
+                    Contact Us
+                    </div>
+                  <div className="contact__content">Contact us through email, phone or social media. We value your feedback and look forward to hearing from you!</div>
                 </Col>
                 <Col>
-                  <p>
-                  <FontAwesomeIcon icon={faPhone} beat/>
+                  <p className='contact__infomation'>
+                  <FontAwesomeIcon className='contact__icon'  icon={faPhone} beat/>
                     Phone: 0123456789
                   </p>
-                  <p>
-                  <FontAwesomeIcon icon={faEnvelope} beat/>
+                  <p className='contact__infomation'>
+                  <FontAwesomeIcon className='contact__icon' icon={faEnvelope} beat/>
                   Email: abc@gmail.com
 
                   </p>
-                  <p>
-                  {/* <FontAwesomeIcon icon={faRegular, fa-message} flip="horizontal" /> */}
-                  <FontAwesomeIcon icon={faMessage} beat flip="horizontal" />
+                  <p className='contact__infomation'>
+                  {/* <FontAwesomeIcon className='contact__icon' icon={faRegular, fa-message} flip="horizontal" /> */}
+                  <FontAwesomeIcon className='contact__icon' icon={faMessage} beat />
 
                   Zalo: 0123456789
                   </p>

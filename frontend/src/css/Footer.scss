@@ -2,4 +2,19 @@ footer{
     padding: 100px;
     background-color: rgb(66, 66, 66);
     color: white;
+    .contact{
+        &__heading{
+            font-size: 2rem;
+        }
+        &__content{
+
+        }
+        &__infomation{
+            font-size: 1.2rem;
+        }
+        &__icon{
+            margin-right: 5px;
+        }
+
+    }
 }

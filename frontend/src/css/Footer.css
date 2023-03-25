@@ -2,4 +2,13 @@ footer {
   padding: 100px;
   background-color: rgb(66, 66, 66);
   color: white;
+}
+footer .contact__heading {
+  font-size: 2rem;
+}
+footer .contact__infomation {
+  font-size: 1.2rem;
+}
+footer .contact__icon {
+  margin-right: 5px;
 }/*# sourceMappingURL=Footer.css.map */
